@@ -10,7 +10,9 @@ class InputBox extends React.Component {
 
 const styles = {
     InputBox: {
-        width: "100%"
+        width: "100%",
+        borderWidth: "2px",
+        borderColor: "teal"
     }
 };
 

@@ -10,8 +10,9 @@ class AddButton extends React.Component {
 
 const styles = {
     AddButton : {
-    textAlign: "center",
-    position: "relative; left:auto; right:auto"
+        marginLeft: "10px",
+        color: "white",
+        backgroundColor: "teal"
     }
 };
 
