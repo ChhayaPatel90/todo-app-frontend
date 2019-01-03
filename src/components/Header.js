@@ -10,7 +10,14 @@ class Header extends React.Component {
 
 const styles = {
     header : {
-        colour: "red"
+        color: "black",
+        fontSize: "20px",
+        fontFamily: "Open Sans",
+        margin: "40px",
+        textAlign: "center",
+        fontWeight: "bold",
+        textTransform: "uppercase",
+        letterSpacing: "4px"
     }
 };
 
