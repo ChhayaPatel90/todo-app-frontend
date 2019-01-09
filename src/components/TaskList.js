@@ -1,10 +1,18 @@
 import React from 'react';
+import Task from './Task';
 
 class TaskList extends React.Component {
 
     render() {
         return (
-            <p>Some tasks will appear here</p>
+            <div>
+                <Task />
+                <Task />
+                <Task />
+                <Task />
+                <Task />
+                <Task />
+            </div>
         );
     }
 }
