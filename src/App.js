@@ -8,16 +8,16 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <Header/>
+        <Header />
         <div className="row justify-content-center no-gutters" style={{border: "1px solid red"}}>
           <div className="col-4" style={{border: "1px solid green"}}>
-           <InputBox/>
+           <InputBox />
         </div>
         <div className="col-4">
-          <AddButton/>
+          <AddButton />
         </div>
         </div>
-          <TaskList/>
+          <TaskList />
       </div>
     );
   }

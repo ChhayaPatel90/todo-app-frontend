@@ -1,12 +1,12 @@
 import React from 'react';
 
-class TaskList extends React.Component {
+class Task extends React.Component {
 
     render() {
         return (
-            <div className="row">
+            <div className="row" style={styles.taskRow}>
                 <div className="col">
-                    Weigh out all of the ingredients
+                    {this.props.taskDescription}
                 </div>
                 <div className="col">
                     <input type="button" value="Done" />
@@ -19,4 +19,11 @@ class TaskList extends React.Component {
     }
 }
 
-export default TaskList;
+const styles = {
+    taskRow: {
+        paddingTop: "10px",
+        paddingBottom: "10px"
+    }
+}
+
+export default Task;
