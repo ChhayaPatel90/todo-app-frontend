@@ -6,19 +6,29 @@ class TaskList extends React.Component {
     render() {
 
         let listofTasks = [
-            "Weigh out ingredients",
-            "Sieve flour into the bowl",
-            "Add and mix all of other dry ingredients",
-            "Add the 2 eggs into the bowl",
-            "Whisk the mixture until smooth",
-            "Add mixture to a greased proof baking tray"
+            {
+               id: 1,
+               description: "Weigh out ingredients",
+               completed: false
+            },
+            {
+                id: 2,
+                description: "Sieve flour into the bowl",
+                completed: false
+            },
+            {
+                id: 3,
+                description: "Add and mix all of other dry ingredients",
+                completed: false
+            }
         ];
+    
 
         return (
             <div>
                 {
                     listofTasks.map((task, i) => 
-                        <Task taskDescription={task} key={i} />
+                        <Task taskDescription={task.description} key={i} />
                     )
                 }
             </div>

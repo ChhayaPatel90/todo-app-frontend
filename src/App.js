@@ -3,6 +3,7 @@ import Header from './components/Header';
 import AddButton from './components/AddButton';
 import InputBox from './components/InputBox';
 import TaskList from './components/TaskList';
+import TaskEntry from './components/TextEntry';
 
 class App extends Component {
   render() {
@@ -15,6 +16,9 @@ class App extends Component {
         </div>
         <div className="col-4">
           <AddButton />
+        </div>
+        <div>
+          <TaskEntry />
         </div>
         </div>
           <TaskList />
